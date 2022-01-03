@@ -1,0 +1,33 @@
+#head{
+    text-align: center;
+}
+#items{
+    width: 30%;
+    margin: auto;
+}
+#left{
+    width: 40%;
+}
+#right{
+    width: 55%;
+    line-height: 15px;
+}
+#div{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 10px;
+    background-color: rgb(224, 155, 5);
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+#text{
+    text-align: center;
+}
+#check{
+    max-width: 100px;
+    margin: 10px auto;
+}

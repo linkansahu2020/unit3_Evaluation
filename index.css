@@ -1,0 +1,23 @@
+.navBar{
+    width: 80%;
+    background-color: rgb(224, 155, 5);
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    padding: 1%;
+}
+button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(224, 155, 5);
+    border: 1px solid transparent;
+    font-weight: bolder;
+    font-size: medium;
+}
+#allFood{
+    width: 82%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
